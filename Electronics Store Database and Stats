@@ -1,0 +1,26 @@
+CREATE TABLE electronics (id INTEGER PRIMARY KEY, item TEXT, cost NUMERIC, quantity INTEGER, price INTEGER, sold INTEGER);
+INSERT INTO electronics VALUES (1, "phone", 150.00,100,200.00,35);
+INSERT INTO electronics VALUES (2, "tablet", 400.00,200,550.00,150);
+INSERT INTO electronics VALUES (3, "laptop", 500.00,200,600.00,100);
+INSERT INTO electronics VALUES (4, "desktop", 700.00,100,900.00,40);
+INSERT INTO electronics VALUES (5, "headphones", 10.00,100,20.00,75);
+INSERT INTO electronics VALUES (6, "keyboard", 25.00,150,35.00,86);
+INSERT INTO electronics VALUES (7, "mouse", 9.00,150,14.00,95);
+INSERT INTO electronics VALUES (8, "printer", 100.00,200,175.00,166);
+INSERT INTO electronics VALUES (9, "speaker", 60.00,100,80.00,78);
+INSERT INTO electronics VALUES (10, "smart_watch", 150.00,300,250.00,284);
+INSERT INTO electronics VALUES (11, "wireless_headphones", 100.00,200,150.00,142);
+INSERT INTO electronics 3VALUES (12, "wireless_keyboard", 50.00,250,75.00,139);
+INSERT INTO electronics VALUES (13, "wireless_mouse", 15.00,150,20.00,142);
+INSERT INTO electronics VALUES (14, "phone_chargers", 10.00,400,20.00,350);
+INSERT INTO electronics VALUES (15, "tablet_chargers", 15.00,300,25.00,125);
+
+SELECT * FROM electronics;
+SELECT * FROM electronics ORDER BY sold;
+SELECT item, MAX(sold) FROM electronics;
+SELECT item, MAX(cost) FROM electronics;
+SELECT item, (cost*quantity) AS total_cost
+FROM electronics; 
+SELECT item, (price*sold) AS total_sales
+FROM electronics;
+
