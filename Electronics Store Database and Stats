@@ -10,7 +10,7 @@ INSERT INTO electronics VALUES (8, "printer", 100.00,200,175.00,166);
 INSERT INTO electronics VALUES (9, "speaker", 60.00,100,80.00,78);
 INSERT INTO electronics VALUES (10, "smart_watch", 150.00,300,250.00,284);
 INSERT INTO electronics VALUES (11, "wireless_headphones", 100.00,200,150.00,142);
-INSERT INTO electronics 3VALUES (12, "wireless_keyboard", 50.00,250,75.00,139);
+INSERT INTO electronics VALUES (12, "wireless_keyboard", 50.00,250,75.00,139);
 INSERT INTO electronics VALUES (13, "wireless_mouse", 15.00,150,20.00,142);
 INSERT INTO electronics VALUES (14, "phone_chargers", 10.00,400,20.00,350);
 INSERT INTO electronics VALUES (15, "tablet_chargers", 15.00,300,25.00,125);
